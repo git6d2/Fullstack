@@ -1,0 +1,64 @@
+#cabeceraweb{
+    background: rgb(245, 118, 118);
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;/*redondear*/
+    font: bold 15px verdana;/*tamaño de fuente*/
+    box-shadow: gray 5px 5px 5px;/*sombra a la caja*/
+    text-shadow: rgb(247, 71, 71) 2px 2px 2px;
+    /*sombra a las letras*/
+
+}
+.barrahorizontal{
+    background: rgb(248, 65, 65);
+    border-radius: 5px;
+
+}
+.lateral{
+    background: rgb(248, 117, 117);
+    float: left;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: gray 5px 5px 5px;
+}
+.figura{
+    background: rgb(243, 21, 5);
+    height: 200px;
+}
+.piedepagina{
+    background: rgb(245, 118, 118);
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: gray 5px 5px 5px;
+}
+.principal{
+    background: whitesmoke;
+    float: left;
+    width: 1150px;
+    height: 200px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+/*linea de comandoa para poner botones en la barra horizontal*/
+li{
+    background: rgb(245, 121, 117, 0.5);
+    display: inline;/*lementos uno a continuacion del otro*/
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 130px 0 0;
+    padding: 2px 7px 2px 7px;
+    border: 1px solid red;
+    text-decoration: none;
+}
+.lie a:hover{
+    background-color: black;
+    color: blue;
+}
+img.imagen_proc{
+    width: 1280px;
+    height: 250px;
+}
